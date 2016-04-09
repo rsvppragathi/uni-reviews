@@ -2,4 +2,11 @@
   "name": "uni-reviews",
   "version": "1.0.0",
   "description": "A question/answer tool for prospective college students to get a perspective from the currently enrolled.",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.12",
+    "path": "^0.12.7"
+  }
 }
