@@ -1,0 +1,18 @@
+@import 'bourbon';
+@import 'reset';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+$cubic-ease-out: cubic-bezier(0.19, 1, 0.22, 1);
+
+body {  
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+	font-size: 1em;
+	background: #eee;
+}
+
+input, button, select, option {
+	font-family: 'Open Sans', sans-serif;
+}

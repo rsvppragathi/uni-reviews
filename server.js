@@ -15,8 +15,6 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 9000;
 var router = express.Router();
 
-
-
 router.get('/', function(req, res) {
 	res.sendFile(path.join(__dirname + '/public/index.html'));
 });
