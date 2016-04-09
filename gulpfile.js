@@ -31,7 +31,7 @@ gulp.task('watch', ['sass', 'compress'], function() {
   gulp.watch('app/styles/*.scss', function() {
     gulp.start('sass');
   });
-  gulp.watch('assets/js/app.js', function() {
+  gulp.watch('app/js/app.js', function() {
 		gulp.start('compress');
 	});
 });
