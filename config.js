@@ -1,6 +1,6 @@
 module.exports = {
 	db: {
-		dev: '',
+		dev: 'mongodb://unireviews:reviewwithme@ds019990.mlab.com:19990/uni-reviews',
 		options: {
             server: {
                 socketOptions: {
