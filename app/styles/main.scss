@@ -16,3 +16,12 @@ body {
 input, button, select, option {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.hero{
+
+	background: url(../images/calpolybackground.jpg);
+	    height: 400px;
+	    width: 1300px;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
