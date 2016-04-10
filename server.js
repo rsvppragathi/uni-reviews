@@ -58,6 +58,14 @@ router.post('/question', function(req, res) {
 });
 
 
+router.get('/search/:query', function(req, res) {
+	Question.find({ $text: { $search: req.params.query } }, function(err, results){
+		if(err) next(err);
+		res.json(results);
+	});
+});
+
+
 app.use(express.static('public'));
 app.use('/api', router);
 

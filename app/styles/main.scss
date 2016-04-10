@@ -4,15 +4,130 @@
 
 $cubic-ease-out: cubic-bezier(0.19, 1, 0.22, 1);
 
+$rust: #B11B1B;
+
 body {  
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	color: #444;
 	font-size: 1em;
-	background: #eee;
+	background: white;
 }
 
 input, button, select, option {
 	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: white;
+	height: 60px;
+	.logo {
+		letter-spacing: 0.1em;
+		font-weight: 300;
+		padding-left: 20px;
+		font-size: 1.4em;
+		line-height: 60px;
+		float: left;
+		margin-right: 20px;
+		color: $rust;
+
+	}
+	.sub {
+		line-height: 60px;
+		font-size: 1em;
+		color: #999;
+
+		b {
+			color: $rust;
+		}
+	}
+}
+
+.school{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background-size: cover;
+	background-repeat: no-repeat;
+
+	.school-card {
+		background: rgba(0,0,0,0.6);
+		padding: 40px;
+		max-width: 640px;
+		margin: 0 auto;
+		box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.4);
+		position: relative;
+		top: 100px;
+	}
+
+	h1 {
+	    font-size: 2em;
+	    font-weight: 400;
+	}
+
+	h2 {
+		font-size: 2em;
+	    color: white;
+	    text-align: center;
+	}
+
+	.ask {
+		input {
+
+		}
+	}
+
+	#ask {
+		display: block;
+	    padding: 15px;
+	    background: white;
+	    border: 1px solid #ccc;
+	    margin-top: 20px;
+	    font-size: 1em;
+	    min-width: 400px;
+	    height: 20px;
+	    margin: 20px auto;
+
+	}
+
+	#ask-btn {
+		border: 0;
+		background: $rust;
+		color: white;	
+		height: 50px;
+		margin-top: 20px;
+		font-size: 1.2em;
+		padding: 0 20px;
+		display: block;
+		margin: 20px auto;
+		border-radius: 6px;
+	}
+}
+
+.search {
+	#ask {
+		float: left;
+		display: block;
+	    padding: 15px;
+	    background: white;
+	    border: 1px solid #ccc;
+	    margin-top: 20px;
+	    font-size: 1em;
+	    min-width: 400px;
+	    height: 20px;
+	}
+
+	#ask-btn {
+		border: 0;
+		background: $rust;
+		color: white;	
+		height: 50px;
+		margin-top: 20px;
+		font-size: 1.2em;
+		padding: 0 20px;
+		display: block;
+		margin: 20px auto;
+		border-radius: 6px;
+	}
 }
